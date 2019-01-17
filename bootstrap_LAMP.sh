@@ -47,4 +47,5 @@ apt-get install -y php7.2-mysql
 sudo service apache2 restart
 
 sudo apt-get update -y
-sudo apt-get upgrade -y
+
+sudo apt-get install nodejs -y
