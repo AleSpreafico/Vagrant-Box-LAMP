@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
 	end
 
 	#Sync Folders
-	config.vm.synced_folder "~/path/to/your/folder", "/var/www/html/"
+	config.vm.synced_folder "~/projects/websites", "/var/www/html/"
 
 	#Ports
 	config.vm.network "forwarded_port", guest: 80, host: 8000
