@@ -46,6 +46,12 @@ apt-get install -y php7.2-mysql
 # Restart Apache
 sudo service apache2 restart
 
+# Install NodeJs
+sudo apt-get install nodejs -y
+
+#Install Composer
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
 sudo apt-get update -y
 
-sudo apt-get install nodejs -y
+sudo apt-get upgrade -y
